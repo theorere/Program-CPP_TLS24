@@ -10,21 +10,21 @@ int main()
 
     if (n < 0) {
         if (n % 2 == 0) {
-            printf("Negative even number");
+            printf("Negative even number\n");
         }
         else {
-            printf("Negative odd number");
+            printf("Negative odd number\n");
         }
     }
     else if (n > 0) {
         if (n % 2 == 0) {
-            printf("Positive even number");
+            printf("Positive even number\n");
         }
         else {
-            printf("Positive odd number");
+            printf("Positive odd number\n");
         }
     }
     else {
-        printf("Zero");
+        printf("Zero\n");
     }
 }
